@@ -5,6 +5,19 @@
  */
 
 module.exports = {
+  siteMetadata:{
+    title: 'Full-stack Bootcamp!',
+    author: 'Andee Dean Isaacs'
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: ['gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
+    'gatsby-transformer-remark'
+  ]
 }
