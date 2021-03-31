@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata:{
-    title: 'Full-stack Bootcamp!',
+    title: 'Gatsby practice project',
     author: 'Andee Dean Isaacs'
   },
   /* Your site config here */
