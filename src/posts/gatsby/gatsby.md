@@ -6,7 +6,7 @@ date: "2021-03-30"
 I'm testing the gatsby framework to quickly learn how it works. This blog post is completely dynamic and is simply an MDX.
 
 Here's a photo of me!
-![Photo of the author Andee](./andee.png)
+![Andee](./andee.png)
 
 
 ## Topics Covered
